@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+      body { margin: 0; }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Adjust this for your window size -->
+    <canvas id="webgl" width="1280" height="720"></canvas>
+
+    <!-- These are required for any ThreeJS program -->
+    <script src="three.js"></script>
+    <script src="cuon-utils.js"></script>
+    <script src="cuon-matrix.js"></script>
+    <script src="webgl-debug.js"></script>
+    <script src="webgl-utils.js"></script>
+    
+    <!-- To Load GLTF -->
+    <script type="module" src="GLTFLoader.js"></script>
+
+
+    <!-- This is your actual ThreeJS program. Make sure names match -->
+    <script type="module" src="CIS454_ThreeJS_GLTF.js"></script>
+
+  </body>
+</html>
+
